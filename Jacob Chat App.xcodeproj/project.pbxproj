@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233C4349DA2D3EC165853675 /* Pods_Jacob_Chat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B98A73571847970347CE2D /* Pods_Jacob_Chat_App.framework */; };
+		605DF44F2498D5AA00D63FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF44E2498D5AA00D63FCF /* AppDelegate.swift */; };
+		605DF4512498D5AA00D63FCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4502498D5AA00D63FCF /* SceneDelegate.swift */; };
+		605DF4562498D5AA00D63FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605DF4542498D5AA00D63FCF /* Main.storyboard */; };
+		605DF4592498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4572498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodeld */; };
+		605DF45B2498D5AC00D63FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605DF45A2498D5AC00D63FCF /* Assets.xcassets */; };
+		605DF45E2498D5AC00D63FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605DF45C2498D5AC00D63FCF /* LaunchScreen.storyboard */; };
+		605DF4692498D5AC00D63FCF /* Jacob_Chat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4682498D5AC00D63FCF /* Jacob_Chat_AppTests.swift */; };
+		605DF4742498D5AC00D63FCF /* Jacob_Chat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4732498D5AC00D63FCF /* Jacob_Chat_AppUITests.swift */; };
+		605DF4862498D6D700D63FCF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4852498D6D700D63FCF /* ChatViewController.swift */; };
+		605DF48C2498DA8A00D63FCF /* ChatMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF48A2498DA8A00D63FCF /* ChatMessageTableViewCell.swift */; };
+		605DF48D2498DA8A00D63FCF /* ChatMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605DF48B2498DA8A00D63FCF /* ChatMessageTableViewCell.xib */; };
+		605DF48F2498F4FE00D63FCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 605DF48E2498F4FE00D63FCF /* GoogleService-Info.plist */; };
+		605DF4912498FC5E00D63FCF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4902498FC5E00D63FCF /* DataManager.swift */; };
+		605DF4932499052C00D63FCF /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DF4922499052C00D63FCF /* IndexViewController.swift */; };
+		606632A2249A394F006ED9B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606632A1249A394F006ED9B8 /* MainViewController.swift */; };
+		60EA88C3249A30470088AC05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA88C2249A30470088AC05 /* LoginViewController.swift */; };
+		60EA88C5249A307A0088AC05 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA88C4249A307A0088AC05 /* SignUpViewController.swift */; };
+		811C28F4ED78EDEC0A313E45 /* Pods_Jacob_Chat_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BA1065FAC869B8B07531BC /* Pods_Jacob_Chat_AppUITests.framework */; };
+		E0874C1A6D262301AC7AE1A4 /* Pods_Jacob_Chat_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4E6809CFC0F93371921F88 /* Pods_Jacob_Chat_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605DF4652498D5AC00D63FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605DF4432498D5AA00D63FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605DF44A2498D5AA00D63FCF;
+			remoteInfo = "Jacob Chat App";
+		};
+		605DF4702498D5AC00D63FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605DF4432498D5AA00D63FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605DF44A2498D5AA00D63FCF;
+			remoteInfo = "Jacob Chat App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51B98A73571847970347CE2D /* Pods_Jacob_Chat_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jacob_Chat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BA1065FAC869B8B07531BC /* Pods_Jacob_Chat_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jacob_Chat_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B143D770918E7910C68BAB /* Pods-Jacob Chat AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jacob Chat AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Jacob Chat AppUITests/Pods-Jacob Chat AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		605DF44B2498D5AA00D63FCF /* Jacob Chat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jacob Chat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605DF44E2498D5AA00D63FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		605DF4502498D5AA00D63FCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		605DF4552498D5AA00D63FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605DF4582498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jacob_Chat_App.xcdatamodel; sourceTree = "<group>"; };
+		605DF45A2498D5AC00D63FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605DF45D2498D5AC00D63FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605DF45F2498D5AC00D63FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605DF4642498D5AC00D63FCF /* Jacob Chat AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jacob Chat AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605DF4682498D5AC00D63FCF /* Jacob_Chat_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jacob_Chat_AppTests.swift; sourceTree = "<group>"; };
+		605DF46A2498D5AC00D63FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605DF46F2498D5AC00D63FCF /* Jacob Chat AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jacob Chat AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605DF4732498D5AC00D63FCF /* Jacob_Chat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jacob_Chat_AppUITests.swift; sourceTree = "<group>"; };
+		605DF4752498D5AC00D63FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605DF4852498D6D700D63FCF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		605DF48A2498DA8A00D63FCF /* ChatMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageTableViewCell.swift; sourceTree = "<group>"; };
+		605DF48B2498DA8A00D63FCF /* ChatMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatMessageTableViewCell.xib; sourceTree = "<group>"; };
+		605DF48E2498F4FE00D63FCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		605DF4902498FC5E00D63FCF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		605DF4922499052C00D63FCF /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		606632A1249A394F006ED9B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		60EA88C2249A30470088AC05 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		60EA88C4249A307A0088AC05 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		86D946E4961F4C68F56E0D7F /* Pods-Jacob Chat AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jacob Chat AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Jacob Chat AppUITests/Pods-Jacob Chat AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88CF056C41ECF50259182479 /* Pods-Jacob Chat AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jacob Chat AppTests.release.xcconfig"; path = "Target Support Files/Pods-Jacob Chat AppTests/Pods-Jacob Chat AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C453CB5266AA3DD2975E0005 /* Pods-Jacob Chat App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jacob Chat App.release.xcconfig"; path = "Target Support Files/Pods-Jacob Chat App/Pods-Jacob Chat App.release.xcconfig"; sourceTree = "<group>"; };
+		CA4E6809CFC0F93371921F88 /* Pods_Jacob_Chat_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jacob_Chat_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67DAE796B51CF259D8DFFFE /* Pods-Jacob Chat App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jacob Chat App.debug.xcconfig"; path = "Target Support Files/Pods-Jacob Chat App/Pods-Jacob Chat App.debug.xcconfig"; sourceTree = "<group>"; };
+		FE262F0B4E8B3C29D0662306 /* Pods-Jacob Chat AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jacob Chat AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Jacob Chat AppTests/Pods-Jacob Chat AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605DF4482498D5AA00D63FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233C4349DA2D3EC165853675 /* Pods_Jacob_Chat_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DF4612498D5AC00D63FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0874C1A6D262301AC7AE1A4 /* Pods_Jacob_Chat_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DF46C2498D5AC00D63FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811C28F4ED78EDEC0A313E45 /* Pods_Jacob_Chat_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CFF809BA6DA3B94FB2A549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B98A73571847970347CE2D /* Pods_Jacob_Chat_App.framework */,
+				CA4E6809CFC0F93371921F88 /* Pods_Jacob_Chat_AppTests.framework */,
+				51BA1065FAC869B8B07531BC /* Pods_Jacob_Chat_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3845CB066881F7DC6342F9DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E67DAE796B51CF259D8DFFFE /* Pods-Jacob Chat App.debug.xcconfig */,
+				C453CB5266AA3DD2975E0005 /* Pods-Jacob Chat App.release.xcconfig */,
+				FE262F0B4E8B3C29D0662306 /* Pods-Jacob Chat AppTests.debug.xcconfig */,
+				88CF056C41ECF50259182479 /* Pods-Jacob Chat AppTests.release.xcconfig */,
+				59B143D770918E7910C68BAB /* Pods-Jacob Chat AppUITests.debug.xcconfig */,
+				86D946E4961F4C68F56E0D7F /* Pods-Jacob Chat AppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		605DF4422498D5AA00D63FCF = {
+			isa = PBXGroup;
+			children = (
+				605DF44D2498D5AA00D63FCF /* Jacob Chat App */,
+				605DF4672498D5AC00D63FCF /* Jacob Chat AppTests */,
+				605DF4722498D5AC00D63FCF /* Jacob Chat AppUITests */,
+				605DF44C2498D5AA00D63FCF /* Products */,
+				3845CB066881F7DC6342F9DA /* Pods */,
+				23CFF809BA6DA3B94FB2A549 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		605DF44C2498D5AA00D63FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605DF44B2498D5AA00D63FCF /* Jacob Chat App.app */,
+				605DF4642498D5AC00D63FCF /* Jacob Chat AppTests.xctest */,
+				605DF46F2498D5AC00D63FCF /* Jacob Chat AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605DF44D2498D5AA00D63FCF /* Jacob Chat App */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4832498D68B00D63FCF /* Models */,
+				605DF4822498D67800D63FCF /* Views */,
+				605DF4812498D66300D63FCF /* Controllers */,
+				605DF4842498D6A200D63FCF /* Storyboards */,
+				605DF44E2498D5AA00D63FCF /* AppDelegate.swift */,
+				605DF4502498D5AA00D63FCF /* SceneDelegate.swift */,
+				605DF45A2498D5AC00D63FCF /* Assets.xcassets */,
+				605DF45F2498D5AC00D63FCF /* Info.plist */,
+				605DF4572498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodeld */,
+				605DF48E2498F4FE00D63FCF /* GoogleService-Info.plist */,
+			);
+			path = "Jacob Chat App";
+			sourceTree = "<group>";
+		};
+		605DF4672498D5AC00D63FCF /* Jacob Chat AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4682498D5AC00D63FCF /* Jacob_Chat_AppTests.swift */,
+				605DF46A2498D5AC00D63FCF /* Info.plist */,
+			);
+			path = "Jacob Chat AppTests";
+			sourceTree = "<group>";
+		};
+		605DF4722498D5AC00D63FCF /* Jacob Chat AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4732498D5AC00D63FCF /* Jacob_Chat_AppUITests.swift */,
+				605DF4752498D5AC00D63FCF /* Info.plist */,
+			);
+			path = "Jacob Chat AppUITests";
+			sourceTree = "<group>";
+		};
+		605DF4812498D66300D63FCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4852498D6D700D63FCF /* ChatViewController.swift */,
+				605DF4922499052C00D63FCF /* IndexViewController.swift */,
+				60EA88C2249A30470088AC05 /* LoginViewController.swift */,
+				60EA88C4249A307A0088AC05 /* SignUpViewController.swift */,
+				606632A1249A394F006ED9B8 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		605DF4822498D67800D63FCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4872498D9F100D63FCF /* Chat */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		605DF4832498D68B00D63FCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4902498FC5E00D63FCF /* DataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		605DF4842498D6A200D63FCF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				605DF4542498D5AA00D63FCF /* Main.storyboard */,
+				605DF45C2498D5AC00D63FCF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		605DF4872498D9F100D63FCF /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				605DF48A2498DA8A00D63FCF /* ChatMessageTableViewCell.swift */,
+				605DF48B2498DA8A00D63FCF /* ChatMessageTableViewCell.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605DF44A2498D5AA00D63FCF /* Jacob Chat App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605DF4782498D5AC00D63FCF /* Build configuration list for PBXNativeTarget "Jacob Chat App" */;
+			buildPhases = (
+				A92D4228D6B11EC256D15A86 /* [CP] Check Pods Manifest.lock */,
+				605DF4472498D5AA00D63FCF /* Sources */,
+				605DF4482498D5AA00D63FCF /* Frameworks */,
+				605DF4492498D5AA00D63FCF /* Resources */,
+				D7217CA72486AB1161D03459 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jacob Chat App";
+			productName = "Jacob Chat App";
+			productReference = 605DF44B2498D5AA00D63FCF /* Jacob Chat App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605DF4632498D5AC00D63FCF /* Jacob Chat AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605DF47B2498D5AC00D63FCF /* Build configuration list for PBXNativeTarget "Jacob Chat AppTests" */;
+			buildPhases = (
+				8644CF34C5A5B429CC58972E /* [CP] Check Pods Manifest.lock */,
+				605DF4602498D5AC00D63FCF /* Sources */,
+				605DF4612498D5AC00D63FCF /* Frameworks */,
+				605DF4622498D5AC00D63FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605DF4662498D5AC00D63FCF /* PBXTargetDependency */,
+			);
+			name = "Jacob Chat AppTests";
+			productName = "Jacob Chat AppTests";
+			productReference = 605DF4642498D5AC00D63FCF /* Jacob Chat AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605DF46E2498D5AC00D63FCF /* Jacob Chat AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605DF47E2498D5AC00D63FCF /* Build configuration list for PBXNativeTarget "Jacob Chat AppUITests" */;
+			buildPhases = (
+				8CBBD18D25914588A8C84CAA /* [CP] Check Pods Manifest.lock */,
+				605DF46B2498D5AC00D63FCF /* Sources */,
+				605DF46C2498D5AC00D63FCF /* Frameworks */,
+				605DF46D2498D5AC00D63FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605DF4712498D5AC00D63FCF /* PBXTargetDependency */,
+			);
+			name = "Jacob Chat AppUITests";
+			productName = "Jacob Chat AppUITests";
+			productReference = 605DF46F2498D5AC00D63FCF /* Jacob Chat AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605DF4432498D5AA00D63FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "FDC Jacob";
+				TargetAttributes = {
+					605DF44A2498D5AA00D63FCF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					605DF4632498D5AC00D63FCF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 605DF44A2498D5AA00D63FCF;
+					};
+					605DF46E2498D5AC00D63FCF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 605DF44A2498D5AA00D63FCF;
+					};
+				};
+			};
+			buildConfigurationList = 605DF4462498D5AA00D63FCF /* Build configuration list for PBXProject "Jacob Chat App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605DF4422498D5AA00D63FCF;
+			productRefGroup = 605DF44C2498D5AA00D63FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605DF44A2498D5AA00D63FCF /* Jacob Chat App */,
+				605DF4632498D5AC00D63FCF /* Jacob Chat AppTests */,
+				605DF46E2498D5AC00D63FCF /* Jacob Chat AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605DF4492498D5AA00D63FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DF45E2498D5AC00D63FCF /* LaunchScreen.storyboard in Resources */,
+				605DF48D2498DA8A00D63FCF /* ChatMessageTableViewCell.xib in Resources */,
+				605DF48F2498F4FE00D63FCF /* GoogleService-Info.plist in Resources */,
+				605DF45B2498D5AC00D63FCF /* Assets.xcassets in Resources */,
+				605DF4562498D5AA00D63FCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DF4622498D5AC00D63FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DF46D2498D5AC00D63FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8644CF34C5A5B429CC58972E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jacob Chat AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBBD18D25914588A8C84CAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jacob Chat AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92D4228D6B11EC256D15A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jacob Chat App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7217CA72486AB1161D03459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jacob Chat App/Pods-Jacob Chat App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jacob Chat App/Pods-Jacob Chat App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jacob Chat App/Pods-Jacob Chat App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605DF4472498D5AA00D63FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DF4592498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodeld in Sources */,
+				605DF44F2498D5AA00D63FCF /* AppDelegate.swift in Sources */,
+				605DF4912498FC5E00D63FCF /* DataManager.swift in Sources */,
+				605DF4862498D6D700D63FCF /* ChatViewController.swift in Sources */,
+				60EA88C3249A30470088AC05 /* LoginViewController.swift in Sources */,
+				605DF4512498D5AA00D63FCF /* SceneDelegate.swift in Sources */,
+				60EA88C5249A307A0088AC05 /* SignUpViewController.swift in Sources */,
+				605DF4932499052C00D63FCF /* IndexViewController.swift in Sources */,
+				605DF48C2498DA8A00D63FCF /* ChatMessageTableViewCell.swift in Sources */,
+				606632A2249A394F006ED9B8 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DF4602498D5AC00D63FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DF4692498D5AC00D63FCF /* Jacob_Chat_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DF46B2498D5AC00D63FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DF4742498D5AC00D63FCF /* Jacob_Chat_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605DF4662498D5AC00D63FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605DF44A2498D5AA00D63FCF /* Jacob Chat App */;
+			targetProxy = 605DF4652498D5AC00D63FCF /* PBXContainerItemProxy */;
+		};
+		605DF4712498D5AC00D63FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605DF44A2498D5AA00D63FCF /* Jacob Chat App */;
+			targetProxy = 605DF4702498D5AC00D63FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605DF4542498D5AA00D63FCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605DF4552498D5AA00D63FCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605DF45C2498D5AC00D63FCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605DF45D2498D5AC00D63FCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605DF4762498D5AC00D63FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		605DF4772498D5AC00D63FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605DF4792498D5AC00D63FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67DAE796B51CF259D8DFFFE /* Pods-Jacob Chat App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6KV6M737B9;
+				INFOPLIST_FILE = "Jacob Chat App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fdc-jacob.Jacob-Chat-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605DF47A2498D5AC00D63FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C453CB5266AA3DD2975E0005 /* Pods-Jacob Chat App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KV6M737B9;
+				INFOPLIST_FILE = "Jacob Chat App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fdc-jacob.Jacob-Chat-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		605DF47C2498D5AC00D63FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE262F0B4E8B3C29D0662306 /* Pods-Jacob Chat AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KV6M737B9;
+				INFOPLIST_FILE = "Jacob Chat AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fdc-jacob.Jacob-Chat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jacob Chat App.app/Jacob Chat App";
+			};
+			name = Debug;
+		};
+		605DF47D2498D5AC00D63FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CF056C41ECF50259182479 /* Pods-Jacob Chat AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KV6M737B9;
+				INFOPLIST_FILE = "Jacob Chat AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fdc-jacob.Jacob-Chat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jacob Chat App.app/Jacob Chat App";
+			};
+			name = Release;
+		};
+		605DF47F2498D5AC00D63FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B143D770918E7910C68BAB /* Pods-Jacob Chat AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KV6M737B9;
+				INFOPLIST_FILE = "Jacob Chat AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fdc-jacob.Jacob-Chat-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jacob Chat App";
+			};
+			name = Debug;
+		};
+		605DF4802498D5AC00D63FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D946E4961F4C68F56E0D7F /* Pods-Jacob Chat AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KV6M737B9;
+				INFOPLIST_FILE = "Jacob Chat AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fdc-jacob.Jacob-Chat-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jacob Chat App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605DF4462498D5AA00D63FCF /* Build configuration list for PBXProject "Jacob Chat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DF4762498D5AC00D63FCF /* Debug */,
+				605DF4772498D5AC00D63FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605DF4782498D5AC00D63FCF /* Build configuration list for PBXNativeTarget "Jacob Chat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DF4792498D5AC00D63FCF /* Debug */,
+				605DF47A2498D5AC00D63FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605DF47B2498D5AC00D63FCF /* Build configuration list for PBXNativeTarget "Jacob Chat AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DF47C2498D5AC00D63FCF /* Debug */,
+				605DF47D2498D5AC00D63FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605DF47E2498D5AC00D63FCF /* Build configuration list for PBXNativeTarget "Jacob Chat AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DF47F2498D5AC00D63FCF /* Debug */,
+				605DF4802498D5AC00D63FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		605DF4572498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				605DF4582498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodel */,
+			);
+			currentVersion = 605DF4582498D5AA00D63FCF /* Jacob_Chat_App.xcdatamodel */;
+			path = Jacob_Chat_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 605DF4432498D5AA00D63FCF /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>671937280893-iv2q64a30b23m4q5rhghosdr069iqgh9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.671937280893-iv2q64a30b23m4q5rhghosdr069iqgh9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBT2wpbPJmGN1ab5MrVFv_xe5kStFgTJUI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>671937280893</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>fdc-jacob.Jacob-Chat-App</string>
+	<key>PROJECT_ID</key>
+	<string>jacobb-d95f6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jacobb-d95f6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:671937280893:ios:bc456200a94375939b2a14</string>
+	<key>DATABASE_URL</key>
+	<string>https://jacobb-d95f6.firebaseio.com</string>
+</dict>
+</plist>
