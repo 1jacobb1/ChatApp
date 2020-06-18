@@ -1,0 +1,53 @@
+## iOS App
+# Build generated
+build/
+DerivedData
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# CocoaPods, Carthage
+Pods/
+Carthage/Build
+
+## Keep empty file
+!empty
+
+## Eclipse
+.classpath
+.project
+.settings/*
+
+## Intellij
+.idea/
+*.iml
+*.iws
+
+## Vagrant
+.vagrant/
+
+## Filesystem dust / Others
+.DS_Store
+.*.sw[a-p]
+*.dat
+*.tmp
+ehthumbs.db
+Thumbs.db
