@@ -19,7 +19,7 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVm-Q3-cJ0">
                         <rect key="frame" x="8" y="6" width="340" height="39.5"/>
-                        <color key="backgroundColor" red="0.53844118119999995" green="0.89039146899999999" blue="0.027097035200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.53725490196078429" green="0.89039146899999999" blue="0.027097035200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Hi Ken" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HzY-XK-qnA">
                         <rect key="frame" x="18" y="15" width="320" height="20.5"/>
@@ -36,20 +36,36 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="faA-Tq-x60" customClass="Triangle" customModule="Jacob_Chat_App" customModuleProvider="target">
+                        <rect key="frame" x="348" y="25.5" width="7" height="12"/>
+                        <color key="backgroundColor" red="0.53725490200000003" green="0.89019607840000003" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="ZDs-3e-9a1"/>
+                            <constraint firstAttribute="width" constant="7" id="rCl-vr-2LO"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="HzY-XK-qnA" secondAttribute="trailing" constant="18" id="0BI-0c-a4P"/>
+                    <constraint firstItem="PVm-Q3-cJ0" firstAttribute="leading" secondItem="faA-Tq-x60" secondAttribute="leading" constant="7" id="7QM-tS-NQP"/>
                     <constraint firstItem="PVm-Q3-cJ0" firstAttribute="bottom" secondItem="HzY-XK-qnA" secondAttribute="bottom" constant="10" id="Ft3-pw-dsI"/>
                     <constraint firstItem="lc8-4f-Mlk" firstAttribute="leading" secondItem="PVm-Q3-cJ0" secondAttribute="leading" id="Haw-uS-vZ1"/>
                     <constraint firstItem="PVm-Q3-cJ0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="KLh-HK-s60"/>
                     <constraint firstAttribute="bottom" secondItem="lc8-4f-Mlk" secondAttribute="bottom" constant="10" id="LUv-dh-4dL"/>
                     <constraint firstItem="HzY-XK-qnA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Lk7-5I-355"/>
                     <constraint firstItem="PVm-Q3-cJ0" firstAttribute="trailing" secondItem="HzY-XK-qnA" secondAttribute="trailing" constant="10" id="M8z-Bv-mg0"/>
+                    <constraint firstItem="PVm-Q3-cJ0" firstAttribute="bottom" secondItem="faA-Tq-x60" secondAttribute="bottom" constant="8" id="aHF-hE-W9A"/>
                     <constraint firstItem="lc8-4f-Mlk" firstAttribute="top" secondItem="HzY-XK-qnA" secondAttribute="bottom" constant="15" id="aZQ-eg-A8C"/>
                     <constraint firstItem="HzY-XK-qnA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="dv2-Ty-7IX"/>
                     <constraint firstItem="PVm-Q3-cJ0" firstAttribute="leading" secondItem="HzY-XK-qnA" secondAttribute="leading" constant="-10" id="jjh-3V-6Wj"/>
                     <constraint firstAttribute="trailing" secondItem="lc8-4f-Mlk" secondAttribute="trailing" constant="14" id="lCp-vj-Pfi"/>
+                    <constraint firstItem="faA-Tq-x60" firstAttribute="trailing" secondItem="PVm-Q3-cJ0" secondAttribute="trailing" constant="7" id="war-5Y-4a7"/>
                 </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="7QM-tS-NQP"/>
+                    </mask>
+                </variation>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -59,7 +75,10 @@
                 <outlet property="lblMessageTrailing" destination="0BI-0c-a4P" id="uD8-Ix-Ysc"/>
                 <outlet property="lblMessageWidth" destination="kGF-N2-scO" id="le5-9n-6yR"/>
                 <outlet property="lblSender" destination="lc8-4f-Mlk" id="VTL-7L-BQd"/>
+                <outlet property="triangleLeading" destination="7QM-tS-NQP" id="XPk-RT-9m1"/>
+                <outlet property="triangleTrailing" destination="war-5Y-4a7" id="kZ8-r2-Ih1"/>
                 <outlet property="viewMessageBubble" destination="PVm-Q3-cJ0" id="66D-pQ-tMv"/>
+                <outlet property="viewTriangle" destination="faA-Tq-x60" id="UmD-qd-BvB"/>
             </connections>
             <point key="canvasLocation" x="166.66666666666669" y="184.82142857142856"/>
         </tableViewCell>
